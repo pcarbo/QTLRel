@@ -31,7 +31,15 @@ concern](http://dx.doi.org/10.1186/1471-2156-12-66).
 
 ###License
 
-Put a summary of the GNU Public License (version 3) here.
+QTLRel is free software: you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the
+Free Software Foundation, either version 3 of the License, or (at your
+option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+**without any warranty**; without even the implied warranty of
+**merchantability** of **fitness for a particular purpose**. See
+[LICENSE](LICENSE) for more details.
 
 ###Installation
 
@@ -52,7 +60,7 @@ define (mostly) inbred individual through iterated self-mating.
 
 ###Credits
 
-The source code for the R QTLRel package was originally developed by
+The QTLRel package for R was originally developed by
 [Riyan Cheng](http://borevitzlab.anu.edu.au/borevitz-lab-people/riyan-chang)
 for [Abraham Palmer's lab](http://palmerlab.org) at the
 [University of Chicago](http://www.uchicago.edu).
