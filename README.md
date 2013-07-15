@@ -3,14 +3,14 @@ QTLRel
 
 ###Overview
 
-QTLRel is an R package for quantitative trait mapping in populations
-such as advanced intercross lines (AILs) where relatedness among
-individuals should not be ignored. QTLRel includes functions to
-estimate background genetic variance components, impute missing
-genotypes, simulate genotypes, perform a genome scan for quantitative
-trait loci (QTLs), and plot the mapping results. QTLRel also includes
-functions to efficiently calculate Jacquard condensed identity
-coefficients.
+QTLRel is an [R](http://www.r-project.org) package for quantitative
+trait mapping in populations such as advanced intercross lines (AILs)
+where relatedness among individuals should not be ignored. QTLRel
+includes functions to estimate background genetic variance components,
+impute missing genotypes, simulate genotypes, perform a genome scan
+for quantitative trait loci (QTLs), and plot the mapping
+results. QTLRel also includes functions to efficiently calculate
+Jacquard condensed identity coefficients.
 
 This R package implements the methods described in
 
@@ -43,9 +43,25 @@ This program is distributed in the hope that it will be useful, but
 
 ###Installation
 
-Explain here how to install the R package, either through CRAN (see
-Section 2 of the tutorial PDF), or by downloading the source code from
-github and installing the package using the local files.
+There are two ways to install the QTLRel package for R.
+
+The easiest way is use the R command line to install the package
+stored at [CRAN](http://cran.r-project.org). Simply enter the command
+
+    install.packages("QTLRel")
+
+in R, and once the package is successfully installed on your computer,
+load the package using the command
+
+    library(QTLRel)
+
+Bear in mind, however, that the version of the package kept on CRAN
+may not be completely up to date.
+
+Alternatively, you may download the 
+
+to obtain the most recent version of QTLRel, download
+the source code from github, and
 
 ###More information
 
