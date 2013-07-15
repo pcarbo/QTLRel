@@ -1,0 +1,43 @@
+citHeader("To cite QTLRel in publications use:")
+
+citEntry(entry="article",
+         title = "QTLRel: an R Package for Genome-wide Association Studies
+                 in which Relatedness is a Concern",
+         author = personList(person("Riyan", "Cheng"),
+                             person("Mark", "Abney"),
+			     person("Abraham", "Palmer", "A."), 
+			     person("Andrew", "Skol", "D.")),
+         journal = "BMC Genetics",			     
+         year = 2011,
+         volume = 12,
+         pages = "66",
+         
+         textVersion = 
+         paste("Cheng R, Abney M, Palmer AA and Skol AD (2011)",
+               "QTLRel: an R Package for Genome-wide Association",
+               "Studies in which Relatedness is a Concern.",
+               "BMC Genet. 12: 66")
+         )
+
+citEntry(entry="article",
+         title = "Genome-wide association studies and the problem of relatedness
+                 among advanced intercross lines and other highly recombinant
+                 populations",
+         author = personList(person("Riyan", "Cheng"),
+                             person("Jackie", "Lim", "E."),
+                             person("Kaitlin", "Samocha", "E."),
+                             person("Greta", "Sokoloff"),
+                             person("Mark", "Abney"),
+                             person("Andrew", "Skol", "D."),
+			     person("Abraham", "Palmer", "A.")), 
+         journal = "Genetics",			     
+         year = 2001,
+         volume = 185,
+         pages = "1033-1044",
+         
+         textVersion = 
+         paste("Cheng R, Lim JE, Samocha KE, Sokoloff G, Abney M, Skol AD and Palmer AA (2010)",
+               "Genome-wide association studies and the problem of relatedness among advanced",
+               "intercross lines and other highly recombinant populations.",
+               "Genetics 185: 1033-1044")
+         )
