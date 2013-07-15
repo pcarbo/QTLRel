@@ -22,7 +22,7 @@ populations](http://dx.doi.org/10.1534/genetics.110.116863)
 > *Genetics* 185(3): 1033–1044.
 
 If you find this software useful for your project, we request that you
-cite the *Genetics* (2010) paper and
+cite the *Genetics* (2010) paper above, and the more recent paper 
 
 > Cheng R, Abney M, Palmer A A, Skol A D (2011). [QTLRel: an R
 package for genome-wide association studies in which relatedness is a
@@ -53,10 +53,25 @@ using the command <tt>library(QTLRel)</tt>. Bear in mind, however,
 that the version of the package kept on CRAN may not be completely up
 to date.
 
-Alternatively, you may download the 
+Alternatively, you may download the source code directly from github,
+and install the package from the source code. Installing QTLRel this
+way involves a couple more steps (unless you happen to have
+[devtools](https://github.com/hadley/devtools)), but ensures that you
+have the most recent version of QTLRel. First, fork or clone the
+repository on your computer, or download the repository as a ZIP file
+(github explains how to do this). Next, build the package from the
+command line on your computer (not the R shell) with the following two
+commands:
 
-to obtain the most recent version of QTLRel, download
-the source code from github, and
+    R CMD check qtlreldir
+	R CMD build qtlreldir
+
+where **qtlreldir** is the directory containing the files you
+downloaded from github. Once the package is built, a file will be
+created with a name something like **QTLRel_0.2-12.tar.gz**. To
+install the package, run the following command in the console:
+
+    R CMD INSTALL QTLRel_0.2-12.tar.gz
 
 ###More information
 
