@@ -47,9 +47,9 @@ There are two ways to install the QTLRel package for R.
 
 The easiest way is to use the R command line. This installs the
 package stored at [CRAN](http://cran.r-project.org). Simply enter
-command <pre>install.packages("QTLRel")</pre> in R, and once the
+command <tt>install.packages("QTLRel")</tt> in R, and once the
 package is successfully installed on your computer, load the package
-using the command <pre>library(QTLRel)</pre>. Bear in mind, however,
+using the command <tt>library(QTLRel)</tt>. Bear in mind, however,
 that the version of the package kept on CRAN may not be completely up
 to date.
 
