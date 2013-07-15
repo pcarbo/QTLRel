@@ -1,0 +1,33 @@
+useDynLib(QTLRel)
+
+export(aicVC,mAIC,
+	blup,estVC,fv,
+	scanOne,scanTwo,gvar,qtlVar,nullSim,gls,
+	lodci,.lodci,
+	genoProb,genoImpute,genoPos,rem,
+	pedRecode,hapSim,genoSim,
+	pkolm,qkolm,qqPlot,plotit,plot.scanTwo,
+        cic,ibs,kinship,genMatrix)
+
+export(rel2qtl, qtl2rel)
+
+importFrom(gdata, "reorder.factor")
+importFrom(gdata, "trim")
+
+S3method(aicVC, default)
+S3method(blup, aic)
+S3method(blup, bgv)
+S3method(estVC, default)
+S3method(genMatrix, cic)
+S3method(genMatrix, default)
+S3method(genoProb, default)
+S3method(plot, scanOne)
+S3method(plot, scanTwo)
+S3method(print, aic)
+S3method(print, bgv)
+S3method(print, scanOne)
+S3method(qqPlot, default)
+S3method(scanOne, default)
+S3method(scanTwo, default)
+
+
