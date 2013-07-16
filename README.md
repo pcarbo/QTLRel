@@ -3,14 +3,14 @@ QTLRel
 
 ###Overview
 
-QTLRel is an [R](http://www.r-project.org) package for quantitative
-trait mapping in populations such as advanced intercross lines (AILs)
-where relatedness among individuals should not be ignored. QTLRel
-includes functions to estimate background genetic variance components,
-impute missing genotypes, simulate genotypes, perform a genome scan
-for quantitative trait loci (QTLs), and plot the mapping
-results. QTLRel also includes functions to efficiently calculate
-Jacquard condensed identity coefficients.
+QTLRel is an [R](http://www.r-project.org) package for mapping
+quantitative trait loci (QTLs) in populations such as advanced
+intercross lines (AILs) where relatedness among individuals should not
+be ignored. QTLRel includes functions to estimate background genetic
+variance components, impute missing genotypes, simulate genotypes,
+perform a genome scan for quantitative trait loci, and plot the
+mapping results. QTLRel also includes functions to efficiently
+calculate Jacquard condensed identity coefficients.
 
 This R package implements the methods described in
 
@@ -54,29 +54,35 @@ that the version of the package kept on CRAN may not be completely up
 to date.
 
 Alternatively, you may download the source code directly from github,
-and install the package from the source code. Installing QTLRel this
-way involves a couple more steps (unless you happen to have
+and install the package from the source code. Installing QTLRel in
+this way involves a couple more steps (unless you happen to have
 [devtools](https://github.com/hadley/devtools)), but ensures that you
-have the most recent version of QTLRel. First, fork or clone the
-repository on your computer, or download the repository as a ZIP file
-(github explains how to do this). Next, build the package from the
-command line on your computer (not the R shell) with the following two
+have the most recent version. First, fork or clone the repository on
+your computer, or download the repository as a ZIP file (github
+explains how to do this). Next, build the package from the command
+line on your computer (not the R shell) with the following two
 commands:
 
     R CMD check qtlreldir
 	R CMD build qtlreldir
 
-where **qtlreldir** is the directory containing the files you
-downloaded from github. Once the package is built, a file will be
-created with a name something like **QTLRel_0.2-12.tar.gz**. To
-install the package, run the following command in the console:
+where **qtlreldir** is the folder containing the files you downloaded
+from github. Once the package is built, a file will be created with a
+name something like **QTLRel_0.2-12.tar.gz**. Finally, to install the
+package, run the following command in the console:
 
     R CMD INSTALL QTLRel_0.2-12.tar.gz
+
+You will now be able to load the QTLRel library in R.
 
 ###More information
 
 Point to the documentation for the individual functions, and the
 QTLRel tutorial for a detailed introduction.
+
+Point to the lgsmfear package as a detailed working example of how
+QTLRel can be used to identify regions of the genome relevant to
+complex traits.
 
 Also point out that a very small change was made to this version of
 the code to remove checks on the pedigree preventing self-mating
