@@ -77,8 +77,14 @@ You will now be able to load the QTLRel library in R.
 
 ###More information
 
-Point to the documentation for the individual functions, and the
-QTLRel tutorial for a detailed introduction.
+All the individual functions in the QTLRel library are documented; for
+example, to get a detailed description of the **scanOne** function,
+type <tt>help(scanOne)</tt> in R. To get a list of all the available
+functions in QTLRel, type either <tt>library(help=QTLRel)</tt> or
+<tt>help(package=QTLRel)</tt>.
+
+There is also a detailed tutorial explaining how to use QTLRel
+[here](inst/doc/QTLRel_Tutorial.pdf).
 
 Point to the lgsmfear package as a detailed working example of how
 QTLRel can be used to identify regions of the genome relevant to
