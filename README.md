@@ -60,10 +60,10 @@ package kept on CRAN may not be completely up-to-date.
 Alternatively, you may download the source code directly from github,
 and install the package from the source code. Installing QTLRel in
 this way involves a couple more steps (unless you happen to have
-[devtools](https://github.com/hadley/devtools)), but ensures that you
+[devtools](http://github.com/hadley/devtools)), but ensures that you
 have the most recent version. First, fork or clone the repository on
 your computer, or
-[download the repository as a ZIP archive](zipball/master). Next,
+[download the repository as a ZIP archive](https://github.com/pcarbo/QTLRel/archive/master.zip). Next,
 build the package from the command line on your computer (not the R
 shell) with the following two commands:
 
