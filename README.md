@@ -4,13 +4,16 @@ QTLRel
 ###Overview
 
 QTLRel is an [R](http://www.r-project.org) package for mapping
-quantitative trait loci (QTLs) in populations such as advanced
-intercross lines (AILs) where relatedness among individuals should not
-be ignored. QTLRel includes functions to estimate background genetic
-variance components, impute missing genotypes, simulate genotypes,
-perform a genome scan for quantitative trait loci, and plot the
-mapping results. QTLRel also includes functions to efficiently
-calculate Jacquard condensed identity coefficients.
+quantitative trait loci (QTLs) in experimental crosses such as
+advanced intercross lines (AILs) where relatedness among individuals
+should not be ignored. QTLRel includes functions to estimate
+background genetic variance components, impute missing genotypes,
+simulate genotypes, perform a genome scan for quantitative trait loci,
+and plot the mapping results. QTLRel also includes functions to
+efficiently calculate Jacquard condensed identity coefficients.  Many
+of these functions are similar to the functions in
+[R/qtl](http://github.com/kbroman/qtl), although many of the functions
+with similar names have different usage, and give different results.
 
 This R package implements the methods described in
 
@@ -30,6 +33,8 @@ concern](http://dx.doi.org/10.1186/1471-2156-12-66).
 > *BMC Genetics* 12(1): 66. 
 
 ###License
+
+Copyright (c) 2012-2013, Abraham Palmer
 
 QTLRel is free software: you can redistribute it and/or modify it
 under the terms of the GNU General Public License as published by the
@@ -77,24 +82,25 @@ You will now be able to load the QTLRel library in R.
 
 ###More information
 
-All the individual functions in the QTLRel library are documented; for
-example, to get a detailed description of the **scanOne** function,
-type <tt>help(scanOne)</tt> in R. To get a list of all the available
+All functions in the QTLRel package are documented; for example, to
+get a description of the scanOne function, type
+<tt>help(scanOne)</tt> in R. To get a list of all the available
 functions in QTLRel, type either <tt>library(help=QTLRel)</tt> or
-<tt>help(package=QTLRel)</tt>.
+<tt>help(package=QTLRel)</tt> in R.
 
-There is also a detailed tutorial explaining how to use QTLRel
-[here](inst/doc/QTLRel_Tutorial.pdf).
+There is a tutorial explaining how to use QTLRel in experimental
+crosses [here](inst/doc/QTLRel_Tutorial.pdf).
 
-Point to the lgsmfear package as a detailed working example of how
-QTLRel can be used to identify regions of the genome relevant to
-complex traits.
+The [lgsmfear package](http://github.com/pcarbo/lgsmfear) contains a
+detailed working example showing how QTLRel can be used to map
+quantitative trait loci in an advanced intercross line.
 
-Also point out that a very small change was made to this version of
-the code to remove checks on the pedigree preventing self-mating
-(selfing). Since the computation of identity coefficients assume that
-the founders are *not* inbred, removing this check allows one to
-define (mostly) inbred individual through iterated self-mating.
+Note that a small change was made to this version of the code to allow
+individuals in the pedigree to have one parent (which would correspond
+to self-fertilization, or selfing). Calculation of the identity
+coefficients assumes that the founders are *not* inbred, and removing
+the requirement that an individual has two parents permits inbred
+founders to be defined artificially through iterated selfing.
 
 ###Credits
 
