@@ -92,7 +92,7 @@ functions in QTLRel, type either <tt>library(help=QTLRel)</tt> or
 See [here](inst/doc/QTLRel_Tutorial.pdf) for a tutorial explaining how
 to use QTLRel for QTL mapping in experimental crosses.
 
-Also, the [lgsmfear package](http://github.com/pcarbo/lgsmfear)
+Also, the [lgsmfear](http://github.com/pcarbo/lgsmfear) project repository
 contains a detailed working example showing how QTLRel can be used to
 map quantitative trait loci in an advanced intercross line.
 
@@ -102,7 +102,8 @@ self-fertilization, or selfing). Since calculation of the identity
 coefficients assumes that the founders are not inbred, removing the
 constraint that an individual must have two parents permits inbred
 founders to be defined artificially through iterated selfing. This is
-demonstrated in [lgsmfear package](http://github.com/pcarbo/lgsmfear).
+demonstrated in the [lgsmfear](http://github.com/pcarbo/lgsmfear)
+project.
 
 ###Credits
 
