@@ -37,9 +37,10 @@ concern](http://dx.doi.org/10.1186/1471-2156-12-66).
 ###License
 
 QTLRel is free software: you can redistribute it and/or modify it
-under the terms of the GNU General Public License as published by the
-Free Software Foundation, either version 3 of the License, or (at your
-option) any later version.
+under the terms of the
+[GNU General Public License](http://www.gnu.org/licenses/gpl.html) as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful, but
 **without any warranty**; without even the implied warranty of
@@ -51,10 +52,10 @@ This program is distributed in the hope that it will be useful, but
 There are two ways to install the QTLRel package for R.
 
 The easiest way is to use the R command line. This installs QTLRel
-stored at [CRAN](http://cran.r-project.org). Simply enter command
-<tt>install.packages("QTLRel")</tt> in R, and once the package is
+stored at [CRAN](http://cran.r-project.org). Simply enter 
+**install.packages("QTLRel")** in R, and once the package is
 successfully installed on your computer, load the package using
-command <tt>library(QTLRel)</tt>. Bear in mind that the version of the
+command **library(QTLRel)**. Bear in mind that the version of the
 package kept on CRAN may not be completely up-to-date.
 
 Alternatively, you may download the source code directly from github,
@@ -63,7 +64,7 @@ this way involves a couple more steps (unless you happen to have
 [devtools](http://github.com/hadley/devtools)), but ensures that you
 have the most recent version. First, fork or clone the repository on
 your computer, or
-[download the repository as a ZIP archive](https://github.com/pcarbo/QTLRel/archive/master.zip). Next,
+[download the repository as a ZIP archive](http://github.com/pcarbo/QTLRel/archive/master.zip). Next,
 build the package from the command line on your computer (not the R
 shell) with the following two commands:
 
@@ -84,10 +85,9 @@ You will now be able to load the QTLRel library in R.
 ###More information
 
 All the R functions in the QTLRel package are documented; for example,
-to get a description of the scanOne function, type
-<tt>help(scanOne)</tt> in R. To get a list of all the available
-functions in QTLRel, type either <tt>library(help=QTLRel)</tt> or
-<tt>help(package=QTLRel)</tt> in R.
+to get a description of the scanOne function, type **help(scanOne)**
+in R. To get a list of all the available functions in QTLRel, type
+either **library(help=QTLRel)** or **help(package=QTLRel)** in R.
 
 See [here](inst/doc/QTLRel_Tutorial.pdf) for a tutorial explaining how
 to use QTLRel for QTL mapping in experimental crosses.
