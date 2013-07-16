@@ -62,10 +62,10 @@ and install the package from the source code. Installing QTLRel in
 this way involves a couple more steps (unless you happen to have
 [devtools](https://github.com/hadley/devtools)), but ensures that you
 have the most recent version. First, fork or clone the repository on
-your computer, or download the repository as a ZIP file (github
-explains how to do this). Next, build the package from the command
-line on your computer (not the R shell) with the following two
-commands:
+your computer, or
+[download the repository as a ZIP archive](zipball/master). Next,
+build the package from the command line on your computer (not the R
+shell) with the following two commands:
 
     R CMD check qtlreldir
 	R CMD build qtlreldir
