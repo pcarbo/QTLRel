@@ -73,7 +73,7 @@ shell) with the following two commands:
 
 where **qtlreldir** is the folder containing the files you downloaded
 from github. (To complete these steps successfully, you may have to
-install the[gdata package](http://cran.r-project.org/web/packages/gdata)
+install the [gdata package](http://cran.r-project.org/web/packages/gdata)
 first.) Once the package is built, a file will be created with a name
 something like **QTLRel_0.2-12.tar.gz**. Finally, to install the
 package, run the following command in the console:
