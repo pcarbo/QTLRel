@@ -1,8 +1,6 @@
 QTLRel
 ======
 
-###Overview
-
 QTLRel is an [R](http://www.r-project.org) package for mapping
 quantitative trait loci (QTLs) in experimental crosses such as
 advanced intercross lines (AILs) where relatedness among individuals
@@ -34,7 +32,7 @@ package for genome-wide association studies in which relatedness is a
 concern](http://dx.doi.org/10.1186/1471-2156-12-66).
 > *BMC Genetics* 12(1): 66. 
 
-###License
+### License
 
 QTLRel is free software: you can redistribute it and/or modify it
 under the terms of the
@@ -47,7 +45,7 @@ This program is distributed in the hope that it will be useful, but
 **merchantability** of **fitness for a particular purpose**. See
 [LICENSE](LICENSE) for more details.
 
-###Installation
+### Installation
 
 There are two ways to install the QTLRel package for R.
 
@@ -83,7 +81,7 @@ package, run the following command in the console:
 
 You will now be able to load the QTLRel library in R.
 
-###More information
+### More information
 
 All the R functions in the QTLRel package are documented; for example,
 to get a description of the scanOne function, type **help(scanOne)**
@@ -106,7 +104,7 @@ founders to be defined artificially through iterated selfing. This is
 demonstrated in the [lgsmfear](http://github.com/pcarbo/lgsmfear)
 project.
 
-###Credits
+### Credits
 
 The QTLRel package for R was originally developed by
 [Riyan Cheng](http://borevitzlab.anu.edu.au/borevitz-lab-people/riyan-chang)
